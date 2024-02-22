@@ -3,11 +3,23 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #0A1E39;
     font-family: "inter", sans-serif;
 }
 
+.fond1{
+    position: absolute;
+    background-color: #032D67;
+    width: 100%;
+    height: 1238px;
+    margin-top: -6%;
+}
+
+body{
+    background-color: #0A1E39;
+}
+
 .header{
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,8 +53,8 @@
     display: block;
     width: 100%;
     margin-top: 15%;
-    border-radius: 5%;
-    z-index: 1;
+    border-radius: 25px;
+    z-index: 2;
 }
 
 .forme1{
@@ -52,20 +64,25 @@
     margin-left: -10%;
     width: 746px;
     height: 472px;
-    z-index: 0;
-    border-radius: 5%;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.fond{
+    background-color: #7cb2fd;
 }
 
 .div1_text{
     display: block;
     position: absolute;
-    z-index: 2;
     width: 856px;
-    height: 523px;
+    height: 412px;
     margin-left: 23%;
     margin-top: 91%;
     padding: 3%;
-    border-radius: 5%;
+    border-radius: 25px;
+    background-color: #0A1E39;
+    z-index: 3;
 }
 
 .div1_text, h1{
@@ -87,6 +104,6 @@
     background: #CC008A;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-top: 3%;
+    margin: 4%;
+    cursor: pointer;
 }
-
